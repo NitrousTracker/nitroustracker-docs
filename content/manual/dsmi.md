@@ -3,27 +3,27 @@ title: 'MIDI support (DSMI)'
 weight: 90
 ---
 
-{{< hint type=warning >}}
-WiFi support has not been extensively tested by the NitrousTracker fork's developers. Caveat emptor.
-{{< /hint >}}
-
 ### Who can NitrousTracker talk to?
 
 NitrousTracker uses
 [DSMI](https://web.archive.org/web/20150205173143/http://dsmi.tobw.net/)
 for MIDI support. So, it can interact with MIDI software on any platform
-(Linux, MacOS, Windows all work). It can act both as a receiver and a
-sender of MIDI messages. Using a
-[DSerial](https://web.archive.org/web/20150205173143/http://www.natrium42.com/shop/dserial2.php)
-device and a special [MIDI cable](https://web.archive.org/web/20150205173143/http://www.natrium42.com/wiki/MIDI),
-NitrousTracker can also send MIDI messages to MIDI hardware like
-synthesizers, but it cannot yet receive MIDI messages from other MIDI
-hardware. Unfortunately, the DSerial is not produced any more. I\'m
-working on other hardware MIDI solutions, so stay tuned!
+(Linux, macOS, Windows all work). It can act both as a receiver and a
+sender of MIDI messages.
+
+The following devices are supported:
+
+* A [DSerial](https://web.archive.org/web/20150205173143/http://www.natrium42.com/shop/dserial2.php) device and a special [MIDI cable](https://web.archive.org/web/20150205173143/http://www.natrium42.com/wiki/MIDI). Note that DSerial cartridges have not been produced in a long time and are rather difficult to find, at least compared to the other options.
+* A [DS Linker Writer](https://wiki.asie.pl/doku.php?id=notes:flashcart:ds_linker_writer)-style USB adapter for the GBA cartridge slot.
+* Wi-Fi networks - using DSMIDIWiFi.
+
+{{< hint type=warning >}}
+WiFi support has not been extensively tested by the NitrousTracker fork's developers. Caveat emptor.
+{{< /hint >}}
 
 ### How to connect NitrousTracker to MIDI software or hardware
 
-It\'s easy! Just go to the settings tab and press connect. If a DSerial
+It\'s easy! Just go to the settings tab and press connect. If a DSerial or an USB adapter card
 is plugged in, NitrousTracker will use it, otherwise it will connect to
 the wireless LAN and use wireless MIDI. The send and receive checkboxes
 enable sending and receiving of MIDI messages (D\'uh! :) Refer to the
