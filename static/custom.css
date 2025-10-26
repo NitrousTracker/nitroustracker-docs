@@ -1,0 +1,26 @@
+:root,
+:root[color-theme="light"] {
+  --header-background: #1b285b;
+  --footer-background: #506090;
+  --link-color: #bd7a00;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --header-background: #1b285b;
+    --footer-background: #506090;
+    --link-color: #bd7a00;
+  }
+}
+
+:root[color-theme="dark"] {
+  --header-background: #506090;
+  --footer-background: #506090;
+  --link-color: #ffb03c;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --header-background: #506090;
+    --footer-background: #506090;
+    --link-color: #ffb03c;
+  }
+}
