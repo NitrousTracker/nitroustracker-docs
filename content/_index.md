@@ -11,6 +11,10 @@ the popular XM file format that is used by many PC trackers
 and that can be played on many PC audio players such as
 Winamp or XMMS.
 
+{{< button href="https://github.com/NitrousTracker/nitroustracker/releases" size="regular" >}}Downloads{{< /button >}}
+{{< button href="https://github.com/NitrousTracker/nitroustracker/issues" size="regular" >}}Issue tracker{{< /button >}}
+{{< button href="https://github.com/NitrousTracker/nitroustracker" size="regular" >}}Source code{{< /button >}}
+
 With NitrousTracker, you can carry your XMs around in your DS and compose whenever and wherever you feel like it. "Tracking on a handheld console? Sounds like a pain in the ass." You might say. But because of the touchscreen and stylus of the DS, it's quite easy. You can compose your melodies using an on-screen keyboard, directly edit your patterns by making selections, copying and pasting - all with the stylus. And that's not where it ends: If you don't have any samples at hand, make your own with the DS's microphone. You can even replace the samples in existing songs with your own recorded ones. There are many possibilities already and there will be even more. 
 
 ## Features
