@@ -9,4 +9,4 @@ if [ ! -d themes/hugo-geekdoc ]; then
 	tar xzvfC _deps/hugo-geekdoc.tar.gz themes/hugo-geekdoc
 fi
 
-hugo --cleanDestinationDir
+hugo --cleanDestinationDir --gc --minify
