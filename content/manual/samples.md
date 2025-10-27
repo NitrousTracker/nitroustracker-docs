@@ -1,11 +1,7 @@
 ---
-title: 'Samples'
+title: 'Editing samples'
 weight: 40
 ---
-
-It's all about samples!
-
-## Editing samples
 
 Let\'s go a little deeper into how you can modify and tune your samples
 in NitrousTracker. Start off by tapping the sample tab. Then, tap the

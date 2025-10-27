@@ -1,5 +1,5 @@
 ---
-title: 'Loading and playing songs'
+title: 'Loading songs'
 weight: 10
 ---
 

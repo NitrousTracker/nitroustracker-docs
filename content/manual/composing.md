@@ -1,5 +1,5 @@
 ---
-title: 'Composing something'
+title: 'Composing'
 weight: 20
 ---
 

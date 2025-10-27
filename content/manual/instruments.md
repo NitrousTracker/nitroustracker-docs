@@ -1,5 +1,5 @@
 ---
-title: 'Instruments'
+title: 'Editing instruments'
 weight: 50
 ---
 
