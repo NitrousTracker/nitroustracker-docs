@@ -12,6 +12,7 @@ and that can be played on many PC audio players such as
 Winamp or XMMS.
 
 {{< button href="https://github.com/NitrousTracker/nitroustracker/releases" size="regular" >}}Downloads{{< /button >}}
+{{< button relref="/manual/foreword/" size="regular" >}}Guide{{< /button >}}
 {{< button href="https://github.com/NitrousTracker/nitroustracker/issues" size="regular" >}}Issue tracker{{< /button >}}
 {{< button href="https://github.com/NitrousTracker/nitroustracker" size="regular" >}}Source code{{< /button >}}
 

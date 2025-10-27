@@ -1,5 +1,5 @@
 ---
-title: 'Usage'
+title: 'Guide'
 ---
-The following documents are a manual detailing how to use
+The following is a manual detailing how to use
 NitrousTracker.
