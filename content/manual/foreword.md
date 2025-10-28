@@ -16,13 +16,13 @@ risk!
 If you find a bug, try to reproduce it. Then post the steps for
 reproduction in the [NitrousTracker issue tracker](https://github.com/NitrousTracker/nitroustracker/issues)
 Before you post, check if it isn\'t a duplicate of an already posted
-bug! Plase include all information you can provide on the bug, if
+bug! Please include all information you can provide on the bug, if
 necessary including the song/sample that causes it.
 
 ## Important precautions
 
-In seldom cases, it may happen that NitroTracker corrups your card and
-you loose all your songs. To prevent this, you should follow this
+In rare cases, it may happen that NitrousTracker corrupts your card and
+you lose all your songs. To prevent this, you should follow this
 important rule:
 
 **Save early, save often!**
