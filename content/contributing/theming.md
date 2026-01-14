@@ -107,3 +107,22 @@ is not possible.
 | 81 | Togglebutton background |
 | 82 | Togglebutton text (off) |
 | 83 | Togglebutton text (on) |
+| 84 | Piano - full key color 1 |
+| 85 | Piano - full key color 2 |
+| 86 | Piano - half key color 1 |
+| 87 | Piano - half key color 2 |
+| 88 | Piano - full key color 1 (highlight) |
+| 89 | Piano - full key color 2 (highlight) |
+| 90 | Piano - half key color 1 (highlight) |
+| 91 | Piano - half key color 2 (highlight) |
+| 92 | Piano - outline |
+| 93 | Text entry background |
+| 94 | Text entry keys |
+| 95 | Text entry key labels |
+| 96 | Text entry modifier keys |
+| 97 | Text entry pressed keys |
+| 98 | Text entry modifier key labels |
+| 99 | Sample editor zoom buttons |
+| 100 | Message box title bar gradient 1 |
+| 101 | Message box title bar gradient 2 |
+| 102 | Message box title bar text |
