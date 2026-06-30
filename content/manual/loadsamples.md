@@ -3,22 +3,10 @@ title: 'Loading samples'
 weight: 15
 ---
 
-A word of warning: I may write mobile trackers in my spare time, but
-I\'m rather musically illiterate, at least when it comes to producing
-music. So, this is not meant to be composing class, this is meant to
-explain how to track with NitrousTracker.
-
-Warning (2): Make sure that the filesystem of the memory card is
-consistent by checking with scandisk/fsck! Sometimes, when NDS apps
-write to the card, the filesystem gets corrupted although you won\'t
-realize. When saving to a corrupt filesystem you may loose your work!
-
-First of all, we need samples. We all like retro sound, so we use this
+First of all, to load samples, we need to have some. To illustrate, we'll use this
 nice [LSDj sample pack](/nitroustracker/content/tracking/179_starpause_LSDj_Kit.zip)
-from [the Freesound
-project](http://freesound.iua.upf.edu/)
-kindly provided by
-[starpause](http://freesound.iua.upf.edu/usersViewSingle.php?id=195).
+from [the Freesound project](https://freesound.org/)
+kindly provided by [starpause](https://starpause.com/)
 Download the pack and unzip it to a new folder on your card. Then put it
 into your DS and start NitrousTracker.
 
@@ -56,12 +44,16 @@ term typewriter to differentiate the (computer) keyboard from the
 ### Recording samples
 
 You can record your own samples through the internal microphone as well
-as through a microphone connected to the mic jack. Sadly, Nintendo chose
-to make the microphone jack proprietary, so you\'ll have to go with one
-of the available DS headsets found in most retail stores. If you feel
-adventurous you can also try slaughtering such a mic to connect a better
-microphone, but be warned: *Some people who tinkered with the mic jack
-reported that their DS microphone stopped working completely!*
+as through a microphone connected to the microphone jack.
+
+{{< hint type=warning >}}
+On the DS and DSi family of consoles, the microphone jack is proprietary.
+As such, only external microphones which are part of dedicated accessories will
+work - alternatively, you may be able to solder your own adapter.
+
+The 3DS family of consoles uses a standard TRRS headphone jack, which
+have standardized adapters and splitters.
+{{< /hint >}}
 
 To record a sample, select an empty instrument on the right, then go to
 the sample tab and tap the microphone button.
@@ -70,8 +62,8 @@ the sample tab and tap the microphone button.
 
 There are two recording modes:
 
--   Quick recording: Press and hold A
--   Hands-free recording: Push B to start, and push B again to stop
+- **Quick recording**: Press and hold A
+- **Hands-free recording**: Push B to start, and push B again to stop
 
 ![](/nitroustracker/content/tracking/mic2.png)
 
@@ -81,3 +73,13 @@ keyboard button. This will play back your sample at the note C-4, which
 is the original recording frequency. After [cutting and
 normalizing](#samples:samples) your recorded sound, you\'ll have a brand
 new instrument!
+
+### Supported sample formats
+
+NitrousTracker supports .WAV files for importing samples. 8-bit and 16-bit
+files are supported well; 24-bit files can also be imported, but more
+slowly. Stereo samples will be downmixed to mono.
+
+If your .WAV file carries loop point information (via the `smpl` chunk),
+it will also be transferred to the sample.
+
