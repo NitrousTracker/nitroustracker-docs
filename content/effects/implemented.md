@@ -3,6 +3,8 @@ title: 'Implemented effects'
 weight: 15
 ---
 
+This list applies to NitrousTracker 0.6.x. As of NitrousTracker 0.7.0, most effects should be supported.
+
 ## Standard effect commands
 
 | Effect | Description               | Status              |
