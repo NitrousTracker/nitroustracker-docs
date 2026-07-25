@@ -9,7 +9,7 @@ NitrousTracker is a hobby project maintained by volunteers in their spare time. 
 
 Bug reports and feature requests are collected here:
 
-https://github.com/NitrousTracker/nitroustracker/issues
+https://codeberg.org/NitrousTracker/nitroustracker/issues
 
 If you have something that isn't already on that list, feel
 free to add it.
@@ -18,6 +18,6 @@ free to add it.
 
 The source and all the info on how to get started is here:
 
-https://github.com/NitrousTracker/nitroustracker
+https://codeberg.org/NitrousTracker/nitroustracker
 
 If you want to contribute a pull request, go right ahead!

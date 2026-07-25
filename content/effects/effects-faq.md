@@ -9,13 +9,13 @@ You need to be in record mode to input effects, similar to recording piano keyst
 
 ## Why are some effects greyed out?
 
-They're not implemented yet by NitrousTracker's playback engine (a [fork](https://github.com/nitroustracker/libntxm) of [libntxm](https://github.com/0xtob/libntxm)). To see in detail which effects are supported, see [Implemented effects](./implemented.md).
+They're not implemented yet by NitrousTracker's playback engine (a [fork](https://codeberg.org/nitroustracker/libntxm) of [libntxm](https://github.com/0xtob/libntxm)). To see in detail which effects are supported, see [Implemented effects](./implemented.md).
 
 ## I entered an effect, but it didn't do anything.
 
 Depending on the version of NitrousTracker you're using, the effects keyboard might have indicated that an effect is usable, despite it not being implemented (sorry!).
 
-If an effect is listed as implemented but doesn't work, please [open an issue](https://github.com/NitrousTracker/nitroustracker/issues).
+If an effect is listed as implemented but doesn't work, please [open an issue](https://codeberg.org/NitrousTracker/nitroustracker/issues).
 
 ## Why doesn't the sample offset command work properly?
 

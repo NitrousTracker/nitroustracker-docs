@@ -5,7 +5,7 @@ weight: 1
 
 ### NitrousTracker crashes!
 
-Check if you have the newest version. If not, update. Else, [send a bug report](https://github.com/NitrousTracker/nitroustracker/issues) with reproduction steps immediately!
+Check if you have the newest version. If not, update. Else, [send a bug report](https://codeberg.org/NitrousTracker/nitroustracker/issues) with reproduction steps immediately!
 
 ### How can I convert my songs to MP3?
 

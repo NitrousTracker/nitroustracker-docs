@@ -4,7 +4,7 @@ title: 'Differences from NitroTracker'
 
 The final release of the original NitroTracker, version 0.4, came out in July 2008. NitrousTracker was forked in 2020, while also incorporating many patches from other forks developed prior. As such, over the years it accumulated a considerable number of new features and changes.
 
-The complete changelog is available [here](https://github.com/NitrousTracker/nitroustracker/blob/new/CHANGELOG.TXT) - the following summarizes the most important changes:
+The complete changelog is available [here](https://codeberg.org/NitrousTracker/nitroustracker/blob/new/CHANGELOG.TXT) - the following summarizes the most important changes:
 
 - **Effect command input** and improved effect playback.
 - **Full DSi mode support**, including 16 MiB of RAM, built-in SD card support, and 16-bit microphone capture.
